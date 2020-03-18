@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-    //modified
+        String temp = "Modified";
         String[] xmlList = new String[6];
         xmlList[0] = "<tag1>";
         xmlList[1] = "text1";
@@ -39,5 +39,6 @@ public class Main {
         pc2.adaugaProcesor(c3);
 
         System.out.println(pc2.proceseaza(documente));
+        System.out.println(temp);
     }
 }
